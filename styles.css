@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#scholarships, #add-scholarship {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#scholarship-list {
+    list-style: none;
+    padding: 0;
+}
+
+#scholarship-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#scholarship-list li h3 {
+    margin-top: 0;
+}
+
+#scholarship-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#scholarship-form input[type="text"],
+#scholarship-form input[type="url"],
+#scholarship-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#scholarship-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#scholarship-form button:hover {
+    background-color: #0056b3;
+}

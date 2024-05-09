@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Scholarship Details</h1>
+    </header>
+    
+    <section id="scholarships">
+        <h2>Available Scholarships</h2>
+        <ul id="scholarship-list">
+            <!-- Scholarships will be dynamically added here -->
+        </ul>
+    </section>
+
+    <section id="add-scholarship">
+        <h2>Add/Edit Scholarship</h2>
+        <form id="scholarship-form">
+            <label for="name">Scholarship Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="eligibility">Eligibility:</label>
+            <textarea id="eligibility" name="eligibility" required></textarea>
+            <label for="stipend">Stipend Amount:</label>
+            <input type="text" id="stipend" name="stipend" required>
+            <label for="link">Link to Apply:</label>
+            <input type="url" id="link" name="link" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
